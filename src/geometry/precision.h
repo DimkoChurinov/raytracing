@@ -1,0 +1,7 @@
+#ifndef GEOMETRY_PRECISION_H
+#define GEOMETRY_PRECISION_H
+
+#define FLOAT_ZERO 0.000001f
+#define EPSILON		 0.0005f
+
+#endif

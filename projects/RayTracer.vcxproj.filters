@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{839621a7-4b79-42ed-b366-9a7218d503d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{cb6ac745-7d0c-4ece-b0ed-728976729a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tracer">
+      <UniqueIdentifier>{99b0efa1-3315-45cb-a54a-bcdca16f2b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interfaces">
+      <UniqueIdentifier>{372c6f11-fc0e-4f7e-93a8-9747e2cc1abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{928f7a02-c9ce-4af5-9669-55090d130e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{bed5730c-8a07-4c01-85ec-507b7bff0228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interfaces">
+      <UniqueIdentifier>{a1f6f070-f90b-4677-8c1e-25899375555d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tracer">
+      <UniqueIdentifier>{b3314603-df8f-44a4-8dc6-8f2e70d8de7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{2da334e6-1e1f-4ebf-904b-dde2523bdd2b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{9a49c901-2631-4125-a9d9-7da481fa3007}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\Illumination">
+      <UniqueIdentifier>{08c61ff4-172c-4091-b9d0-e64099aff2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Illumination">
+      <UniqueIdentifier>{962ed097-aeb6-456c-8eb5-51ccab97cfbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Frontend">
+      <UniqueIdentifier>{0349d963-2534-4996-b235-790173121ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Frontend">
+      <UniqueIdentifier>{b35d83e1-518e-4179-b48d-e1182983036c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vendors">
+      <UniqueIdentifier>{1ccb948a-fbe4-498a-80a2-143d61bbf9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vendors">
+      <UniqueIdentifier>{39e5219a-03c3-439c-aee4-4d3752f862d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CSG">
+      <UniqueIdentifier>{d902326f-f3ee-43db-a617-4f3817be072a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CSG">
+      <UniqueIdentifier>{63b50b02-850e-4e0d-b600-9274eb196e72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geometry\ray.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tracer\camera.cpp">
+      <Filter>Source Files\Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geometry\sphere.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geometry\plane.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tracer\scene.cpp">
+      <Filter>Source Files\Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tracer\tracer.cpp">
+      <Filter>Source Files\Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frontend\sceneserializable.cpp">
+      <Filter>Source Files\Frontend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frontend\tracerwrapper.cpp">
+      <Filter>Source Files\Frontend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geometry\triangle.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\illumination\lightsource.cpp">
+      <Filter>Source Files\Illumination</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geometry\cylinder.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geometry\cone.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geometry\torus.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geometry\model.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\vendors\quarticsolver.cpp">
+      <Filter>Source Files\Vendors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geometry\bbox.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\illumination\texture.cpp">
+      <Filter>Source Files\Illumination</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geometry\box.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\csg\csgvalue.cpp">
+      <Filter>Source Files\CSG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\csg\csgoperand.cpp">
+      <Filter>Source Files\CSG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\csg\csgunion.cpp">
+      <Filter>Source Files\CSG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\csg\csgintersection.cpp">
+      <Filter>Source Files\CSG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\csg\csgdifference.cpp">
+      <Filter>Source Files\CSG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\csg\csgtree.cpp">
+      <Filter>Source Files\CSG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geometry\span.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\geometry\precision.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\vector3d.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tracer\camera.h">
+      <Filter>Header Files\Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\interfaces\ishape.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\intersection.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\illumination\material.h">
+      <Filter>Header Files\Illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\sphere.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\plane.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\illumination\lightsource.h">
+      <Filter>Header Files\Illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\illumination\types.h">
+      <Filter>Header Files\Illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tracer\scene.h">
+      <Filter>Header Files\Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\triangle.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tracer\tracer.h">
+      <Filter>Header Files\Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tracer\tracerproperties.h">
+      <Filter>Header Files\Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frontend\ixmlserializable.h">
+      <Filter>Header Files\Frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frontend\sceneserializable.h">
+      <Filter>Header Files\Frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frontend\tracerwrapper.h">
+      <Filter>Header Files\Frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\cylinder.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\cone.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\torus.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\model.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\vendors\quarticsolver.h">
+      <Filter>Header Files\Vendors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\bbox.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\smoothtriangle.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\illumination\texture.h">
+      <Filter>Header Files\Illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\texturedtriangle.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\modeltriangle.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\box.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\csg\csgnode.h">
+      <Filter>Header Files\CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\csg\csgoperand.h">
+      <Filter>Header Files\CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\csg\csgvalue.h">
+      <Filter>Header Files\CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\csg\csgoperation.h">
+      <Filter>Header Files\CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\csg\csgunion.h">
+      <Filter>Header Files\CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\csg\csgintersection.h">
+      <Filter>Header Files\CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\csg\csgdifference.h">
+      <Filter>Header Files\CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\csg\csgtree.h">
+      <Filter>Header Files\CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geometry\span.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\csg\csgdifference.cpp" />
+    <ClCompile Include="..\src\csg\csgintersection.cpp" />
+    <ClCompile Include="..\src\csg\csgoperand.cpp" />
+    <ClCompile Include="..\src\csg\csgtree.cpp" />
+    <ClCompile Include="..\src\csg\csgunion.cpp" />
+    <ClCompile Include="..\src\csg\csgvalue.cpp" />
+    <ClCompile Include="..\src\frontend\sceneserializable.cpp" />
+    <ClCompile Include="..\src\frontend\tracerwrapper.cpp" />
+    <ClCompile Include="..\src\geometry\bbox.cpp" />
+    <ClCompile Include="..\src\geometry\box.cpp" />
+    <ClCompile Include="..\src\geometry\cone.cpp" />
+    <ClCompile Include="..\src\geometry\cylinder.cpp" />
+    <ClCompile Include="..\src\geometry\model.cpp" />
+    <ClCompile Include="..\src\geometry\plane.cpp" />
+    <ClCompile Include="..\src\geometry\ray.h" />
+    <ClCompile Include="..\src\geometry\span.cpp" />
+    <ClCompile Include="..\src\geometry\sphere.cpp" />
+    <ClCompile Include="..\src\geometry\torus.cpp" />
+    <ClCompile Include="..\src\geometry\triangle.cpp" />
+    <ClCompile Include="..\src\illumination\lightsource.cpp" />
+    <ClCompile Include="..\src\illumination\texture.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\tracer\camera.cpp" />
+    <ClCompile Include="..\src\tracer\scene.cpp" />
+    <ClCompile Include="..\src\tracer\tracer.cpp" />
+    <ClCompile Include="..\src\vendors\quarticsolver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\csg\csgdifference.h" />
+    <ClInclude Include="..\src\csg\csgintersection.h" />
+    <ClInclude Include="..\src\csg\csgnode.h" />
+    <ClInclude Include="..\src\csg\csgoperand.h" />
+    <ClInclude Include="..\src\csg\csgoperation.h" />
+    <ClInclude Include="..\src\csg\csgtree.h" />
+    <ClInclude Include="..\src\csg\csgunion.h" />
+    <ClInclude Include="..\src\csg\csgvalue.h" />
+    <ClInclude Include="..\src\frontend\ixmlserializable.h" />
+    <ClInclude Include="..\src\frontend\sceneserializable.h" />
+    <ClInclude Include="..\src\frontend\tracerwrapper.h" />
+    <ClInclude Include="..\src\geometry\bbox.h" />
+    <ClInclude Include="..\src\geometry\box.h" />
+    <ClInclude Include="..\src\geometry\cone.h" />
+    <ClInclude Include="..\src\geometry\cylinder.h" />
+    <ClInclude Include="..\src\geometry\intersection.h" />
+    <ClInclude Include="..\src\geometry\model.h" />
+    <ClInclude Include="..\src\geometry\modeltriangle.h" />
+    <ClInclude Include="..\src\geometry\plane.h" />
+    <ClInclude Include="..\src\geometry\precision.h" />
+    <ClInclude Include="..\src\geometry\smoothtriangle.h" />
+    <ClInclude Include="..\src\geometry\span.h" />
+    <ClInclude Include="..\src\geometry\sphere.h" />
+    <ClInclude Include="..\src\geometry\texturedtriangle.h" />
+    <ClInclude Include="..\src\geometry\torus.h" />
+    <ClInclude Include="..\src\geometry\triangle.h" />
+    <ClInclude Include="..\src\geometry\vector3d.h" />
+    <ClInclude Include="..\src\illumination\lightsource.h" />
+    <ClInclude Include="..\src\illumination\material.h" />
+    <ClInclude Include="..\src\illumination\texture.h" />
+    <ClInclude Include="..\src\illumination\types.h" />
+    <ClInclude Include="..\src\interfaces\ishape.h" />
+    <ClInclude Include="..\src\tracer\camera.h" />
+    <ClInclude Include="..\src\tracer\scene.h" />
+    <ClInclude Include="..\src\tracer\tracer.h" />
+    <ClInclude Include="..\src\tracer\tracerproperties.h" />
+    <ClInclude Include="..\src\vendors\quarticsolver.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ABE86FC4-E704-4331-945B-7776A387BFDB}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\bin\$(ConfigurationName)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)..\bin\$(ConfigurationName)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\build\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">rt-dbg</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)..\build\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">rt</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_CORE_LIB;QT_XML_LIB;QT_GUI_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\src\;$(QTDIR)\include;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtXml;.;.\..\build\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)\rt-dbg.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmaind.lib;QtCored4.lib;QtXmld4.lib;QtGuid4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_XML_LIB;QT_GUI_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\..\src\;$(QTDIR)\include;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtXml;.;.\..\build\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)\rt.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>qtmain.lib;QtCore4.lib;QtXml4.lib;QtGui4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties UicDir=".\..\build\GeneratedFiles\$(ConfigurationName)" MocDir=".\..\build\GeneratedFiles\$(ConfigurationName)" MocOptions="" RccDir=".\..\build\GeneratedFiles\$(ConfigurationName)" lupdateOnBuild="0" lupdateOptions="" lreleaseOptions="" QtVersion_x0020_Win32="4.7.4" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

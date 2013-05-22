@@ -1,0 +1,673 @@
+<?xml version="1.0"?>
+<scene>
+<camera>
+      <pos x="-2.000" y="5.000" z="20.000"/>
+      <up  x="0.000" y="1.000" z="0.000"/>
+      <look_at x="0.000" y="0.000" z="0.000"/>
+      <fov angle="60.000"/>
+      <dist_to_near_plane dist="1.000"/>
+      <use_exposure state="true"/>
+      <use_gamma_correction state="true"/>
+</camera>
+<light type="directional">
+      <pos x="0.000" y="5.000" z="-11.000"/>
+      <dir x="0.000" y="0.000" z="-1.000"/>
+      <ambient_emission  x="1.000" y="1.000" z="1.000"/>
+      <diffuse_emission  x="1.000" y="1.000" z="1.000"/>
+      <specular_emission x="1.000" y="1.000" z="1.000"/>
+      <attenuation const="1.000" linear="0.0200" quad="0.008"/>
+      <range value="2000.000"/>
+</light>
+<light type="directional">
+      <pos x="7.000" y="15.000" z="-5.000"/>
+      <dir x="0.000" y="-1.000" z="0.000"/>
+      <ambient_emission  x="1.000" y="1.000" z="1.000"/>
+      <diffuse_emission  x="1.000" y="1.000" z="1.000"/>
+      <specular_emission x="1.000" y="1.000" z="1.000"/>
+      <attenuation const="1.000" linear="0.0020" quad="0.002"/>
+      <range value="2000.000"/>
+</light>
+<light type="directional">
+      <pos x="0.000" y="1.000" z="10.000"/>
+      <dir x="0.000" y="0.000" z="-1.000"/>
+      <ambient_emission  x="1.000" y="1.000" z="1.000"/>
+      <diffuse_emission  x="1.000" y="1.000" z="1.000"/>
+      <specular_emission x="1.000" y="1.000" z="1.000"/>
+      <attenuation const="1.000" linear="0.0020" quad="0.002"/>
+      <range value="2000.000"/>
+</light>
+<light type="point">
+      <pos x="-10.000" y="2.000" z="-18.000"/>
+      <dir x="1.000" y="-1.000" z="1.000"/>
+      <ambient_emission  x="1.000" y="1.000" z="1.000"/>
+      <diffuse_emission  x="1.000" y="1.000" z="1.000"/>
+      <specular_emission x="1.000" y="1.000" z="1.000"/>
+      <attenuation const="1.000" linear="0.0200" quad="0.002"/>
+</light>
+<light type="spotlight">
+      <pos x="-8.500" y="5.000" z="0.000"/>
+      <dir x="0.000" y="-1.000" z="0.000"/>
+      <ambient_emission  x="1.000" y="1.000" z="1.000"/>
+      <diffuse_emission  x="1.000" y="1.000" z="1.000"/>
+      <specular_emission x="1.000" y="1.000" z="1.000"/>
+      <attenuation const="1.000" linear="0.0200" quad="0.002"/>
+      <umbra angle="30.000"/>
+      <penumbra angle="60.000"/>
+      <falloff value="2.000"/>
+</light>
+<object type="sphere">
+      <center x="0.000" y="6.00" z="-5.00"/>
+      <radius r="5.000"/>
+      <material>
+         <ambient  x="0.010" y="0.010" z="0.010"/>
+         <diffuse  x="0.010" y="0.010" z="0.010"/>
+         <specular x="0.000" y="0.000" z="0.000"/>
+         <specular_power power="20.0"/>
+	 <refraction_coeff theta="1.05"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.000" refraction_factor="1.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-6.000" y="10.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="0.215" z="0.023"/>
+         <diffuse  x="0.021" y="0.518" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="10.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-4.000" y="10.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-2.000" y="10.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="0.000" y="10.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="2.000" y="10.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		                                                
+</object>
+<object type="sphere">
+      <center x="4.000" y="10.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-6.000" y="8.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-4.000" y="8.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-2.000" y="8.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="0.000" y="8.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="2.000" y="8.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="4.000" y="8.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-6.000" y="6.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-4.000" y="6.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-2.000" y="6.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="0.000" y="6.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="2.000" y="6.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="4.000" y="6.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-6.000" y="4.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-4.000" y="4.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-2.000" y="4.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="0.000" y="4.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="2.000" y="4.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="4.000" y="4.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-6.000" y="2.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-4.000" y="2.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="-2.000" y="2.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="0.000" y="2.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="2.000" y="2.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="4.000" y="2.000" z="-18.000"/>
+      <radius r="1.000"/>
+      <material>
+         <ambient  x="0.009" y="1.000" z="0.023"/>
+         <diffuse  x="0.021" y="1.000" z="0.079"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.500" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="cylinder">
+      <top x="7.000" y="15.000" z="-8.00"/>
+      <bottom x="11.000" y="-1.000" z="-8.00"/>
+      <radius r="2.000"/>
+      <material>
+         <ambient  x="0.054" y="0.054" z="0.054"/>
+         <diffuse  x="1.000" y="1.000" z="1.000"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="50.0"/>
+	 <refraction_coeff theta="1.1"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.450" refraction_factor="0.000"/>
+         <texture file_name="../res/marble.jpg"/>
+         <texscaleu scale="0.5000"/>
+         <texscalev scale="0.5000"/>
+      </material>		
+</object>
+<object type="cylinder">
+      <top x="10.000" y="15.000" z="-6.00"/>
+      <bottom x="13.000" y="-1.000" z="-6.00"/>
+      <radius r="2.000"/>
+      <material>
+         <ambient  x="0.054" y="0.054" z="0.054"/>
+         <diffuse  x="1.000" y="1.000" z="1.000"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="50.0"/>
+	 <refraction_coeff theta="1.1"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.450" refraction_factor="0.000"/>
+         <texture file_name="../res/marble.jpg"/>
+         <texscaleu scale="0.5000"/>
+         <texscalev scale="0.5000"/>
+      </material>		
+</object>
+<object type="cylinder">
+      <top x="14.000" y="15.000" z="-4.00"/>
+      <bottom x="14.000" y="-1.000" z="-4.00"/>
+      <radius r="2.000"/>
+      <material>
+         <ambient  x="0.054" y="0.054" z="0.054"/>
+         <diffuse  x="1.000" y="1.000" z="1.000"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="50.0"/>
+	 <refraction_coeff theta="1.1"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.450" refraction_factor="0.000"/>
+         <texture file_name="../res/marble.jpg"/>
+         <texscaleu scale="0.5000"/>
+         <texscalev scale="0.5000"/>
+      </material>		
+</object>
+<object type="cylinder">
+      <top x="14.000" y="15.000" z="-2.00"/>
+      <bottom x="10.000" y="-1.000" z="-2.00"/>
+      <radius r="2.000"/>
+      <material>
+         <ambient  x="0.054" y="0.054" z="0.054"/>
+         <diffuse  x="1.000" y="1.000" z="1.000"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="50.0"/>
+	 <refraction_coeff theta="1.1"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.450" refraction_factor="0.000"/>
+         <texture file_name="../res/marble.jpg"/>
+         <texscaleu scale="0.5000"/>
+         <texscalev scale="0.5000"/>
+      </material>		
+</object>
+<object type="cylinder">
+      <top x="10.000" y="15.000" z="0.00"/>
+      <bottom x="6.000" y="-1.000" z="0.00"/>
+      <radius r="2.000"/>
+      <material>
+         <ambient  x="0.054" y="0.054" z="0.054"/>
+         <diffuse  x="1.000" y="1.000" z="1.000"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="50.0"/>
+	 <refraction_coeff theta="1.1"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.450" refraction_factor="0.000"/>
+         <texture file_name="../res/marble.jpg"/>
+         <texscaleu scale="0.5000"/>
+         <texscalev scale="0.5000"/>
+      </material>		
+</object>
+<object type="plane">
+      <normal x="0.00" y="1.00" z="0.00"/>
+      <D d="0.00"/>
+      <material>
+         <ambient  x="0.019" y="0.012" z="0.014"/>
+         <diffuse  x="1.000" y="1.000" z="1.000"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.2"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.600" refraction_factor="0.000"/>
+         <texture file_name="../res/ChessBoard.png"/>
+         <texscaleu scale="0.125"/>
+         <texscalev scale="0.125"/>
+      </material>		
+</object>
+<object type="plane">
+      <normal x="0.00" y="-1.00" z="0.00"/>
+      <D d="20.00"/>
+      <material>
+         <ambient  x="0.019" y="0.012" z="0.014"/>
+         <diffuse  x="0.019" y="0.012" z="0.014"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="25.0"/>
+	 <refraction_coeff theta="1.2"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.600" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="plane">
+      <normal x="0.00" y="0.00" z="1.00"/>
+      <D d="20.00"/>
+      <material>
+         <ambient  x="0.019" y="0.012" z="0.014"/>
+         <diffuse  x="0.019" y="0.012" z="0.014"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="60.0"/>
+	 <refraction_coeff theta="1.2"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.600" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="plane">
+      <normal x="-1.00" y="0.00" z="0.00"/>
+      <D d="20.00"/>
+      <material>
+         <ambient  x="0.019" y="0.012" z="0.014"/>
+         <diffuse  x="0.019" y="0.012" z="0.014"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="60.0"/>
+	 <refraction_coeff theta="1.2"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.600" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="plane">
+      <normal x="1.000" y="0.000" z="0.000"/>
+      <D d="-20.000"/>
+      <material>
+         <ambient  x="0.019" y="0.012" z="0.014"/>
+         <diffuse  x="0.019" y="0.012" z="0.014"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="60.0"/>
+	 <refraction_coeff theta="1.2"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.600" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="box">
+      <min x="-5.000" y="0.000" z="-10.000"/>
+      <max x="5.000" y="1.000" z="-5.000"/>
+      <material>
+         <ambient  x="0.219" y="0.112" z="0.214"/>
+         <diffuse  x="0.519" y="0.312" z="0.414"/>
+         <specular x="0.819" y="0.789" z="0.771"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.2"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.800" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="box">
+      <min x="-11.000" y="1.000" z="-2.000"/>
+      <max x="-6.000" y="4.000" z="2.000"/>
+      <material>
+         <ambient  x="0.010" y="0.010" z="0.010"/>
+         <diffuse  x="0.111" y="0.151" z="0.145"/>
+         <specular x="0.000" y="0.000" z="0.000"/>
+         <specular_power power="25.0"/>
+	 <refraction_coeff theta="1.2"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.000" refraction_factor="1.000"/>
+      </material>		
+</object>
+<object type="box">
+      <min x="-11.000" y="0.000" z="-2.000"/>
+      <max x="-6.000" y="1.000" z="2.000"/>
+      <material>
+         <ambient  x="0.119" y="0.112" z="0.314"/>
+         <diffuse  x="0.119" y="0.312" z="0.514"/>
+         <specular x="0.658" y="0.789" z="0.991"/>
+         <specular_power power="5.0"/>
+	 <refraction_coeff theta="1.2"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.800" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="cone">
+      <top x="-10.250" y="1.000" z="0.00"/>
+      <bottom x="-10.250" y="3.000" z="0.00"/>
+      <radius r="0.500"/>
+      <material>
+         <ambient  x="1.000" y="0.054" z="0.054"/>
+         <diffuse  x="1.000" y="0.051" z="0.051"/>
+         <specular x="1.000" y="0.000" z="1.000"/>
+         <specular_power power="7.0"/>
+	 <refraction_coeff theta="1.1"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.250" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="cone">
+      <top x="-8.500" y="1.000" z="0.00"/>
+      <bottom x="-8.500" y="3.000" z="0.00"/>
+      <radius r="0.500"/>
+      <material>
+         <ambient  x="1.000" y="0.054" z="0.054"/>
+         <diffuse  x="1.000" y="0.051" z="0.051"/>
+         <specular x="1.000" y="0.000" z="1.000"/>
+         <specular_power power="7.0"/>
+	 <refraction_coeff theta="1.1"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.250" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="cone">
+      <top x="-6.750" y="1.000" z="0.00"/>
+      <bottom x="-6.750" y="3.000" z="0.00"/>
+      <radius r="0.500"/>
+      <material>
+         <ambient  x="1.000" y="0.054" z="0.054"/>
+         <diffuse  x="1.000" y="0.051" z="0.051"/>
+         <specular x="1.000" y="0.000" z="1.000"/>
+         <specular_power power="7.0"/>
+	 <refraction_coeff theta="1.1"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.250" refraction_factor="0.000"/>
+      </material>		
+</object>
+<object type="sphere">
+      <center x="0.000" y="2.000" z="3.000"/>
+      <radius r="2.000"/>
+      <material>
+         <ambient  x="0.009" y="0.021" z="0.023"/>
+         <diffuse  x="1.000" y="1.000" z="1.000"/>
+         <specular x="1.000" y="1.000" z="1.000"/>
+         <specular_power power="10.0"/>
+	 <refraction_coeff theta="1.3"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.000" refraction_factor="0.000"/>
+         <texture file_name="../res/gold.jpg"/>
+         <texscaleu scale="1.000"/>
+         <texscalev scale="1.000"/>
+      </material>		
+</object>
+<background>
+      <material>
+         <ambient  x="0.000" y="0.000" z="0.000"/>
+         <diffuse  x="1.000" y="0.000" z="0.000"/>
+         <specular x="0.000" y="0.000" z="1.000"/>
+         <specular_power power="2.00"/>
+	 <refraction_coeff theta="0.2"/>
+	 <illumination_factors illumination_factor="0.200" reflection_factor="0.200" refraction_factor="0.200"/>
+      </material>		
+</background>
+</scene>
